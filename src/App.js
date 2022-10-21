@@ -1,12 +1,13 @@
-import React from "react";
-import Rotas from '../src/services/Rotas.js';
+import React, { useState } from 'react';
+import Rotas from './services/Rotas';
 import { GlobalStyle } from './global/style';
 
-export default function App(){
+export default function App() {
+
   return(
     <>
-      <Rotas/>
       <GlobalStyle/>
+      <Rotas/>
     </>
   )
 }
