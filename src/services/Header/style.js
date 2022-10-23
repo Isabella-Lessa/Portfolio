@@ -9,7 +9,25 @@ export const Header = styled.nav`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: fixed
+    position: fixed;
+    z-index: 9999;
+`
+
+export const FigModal = styled.div`
+    width: 8%;
+    height: 100%;
+    display: none;
+
+    @media screen and (max-width: 800px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+`
+
+export const ImgModal = styled.img`
+    width: 40px;
+    cursor: pointer;
 `
 
 export const Title = styled.h1`
@@ -27,6 +45,20 @@ export const UL = styled.ul`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media screen and (max-width: 800px){
+        display: none
+    }
+`
+
+export const UL_TWO = styled.ul`
+    transition: 1s all;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column
 `
 
 export const LI = styled.li`
@@ -49,7 +81,32 @@ export const LI = styled.li`
     }
 `
 
+export const LI_TWO = styled.li`
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    height: 2rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-evenly;
+    // flex-direction: column;
+
+    &:hover{
+        font-weight: 700;
+        color: #194569
+    }
+`
+
 export const LINK = styled(Link)`
+    text-decoration: none;
+    color: white;
+`
+
+export const LINK_TWO = styled(Link)`
     text-decoration: none;
     color: white;
 `

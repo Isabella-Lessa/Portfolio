@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import * as S from "./style.js";
 import ProfileImg from "../../assets/newimg.jpg";
 import DevGirl from "../../assets/girl programmer.gif";
@@ -8,12 +8,12 @@ import JS from '../../assets/javascript.png';
 import TS from '../../assets/ts.png';
 import REACT from '../../assets/react.png';
 import VUE from '../../assets/vue.png';
+import Footer from "../../services/Footer/index.jsx";
 
 export default function About() {
-  const refBack = useRef("");
 
   return (
-    <S.AboutContainer ref={refBack}>
+    <S.AboutContainer>
       <S.ContainerImg>
         <S.Fig>
           <S.PersonalImg src={ProfileImg} alt="imagem de isabella" />
@@ -24,7 +24,6 @@ export default function About() {
         </S.BoxTxt>
       </S.ContainerImg>
       <S.ContainerText>
-        <S.DevText>
           <S.BoxResume>
             <S.TxtOne>
               Me chamo Isabella Lessa, tenho 19 anos e atualmente moro em Duque
@@ -54,7 +53,6 @@ export default function About() {
           <S.FigGif>
             <S.Gif src={DevGirl} alt=" imagem de programadora" />
           </S.FigGif>
-        </S.DevText>
       </S.ContainerText>
       <S.ContainerTech>
         <S.TitleCards>Tecnologias</S.TitleCards>
@@ -79,6 +77,7 @@ export default function About() {
           </S.CardSix>
         </S.BoxInfo>
       </S.ContainerTech>
+      <Footer/>
     </S.AboutContainer>
   );
 }

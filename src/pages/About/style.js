@@ -7,7 +7,7 @@ export const AboutContainer = styled.section`
 
 export const ContainerImg = styled.div`
     width: 100%;
-    height: 50em;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +15,8 @@ export const ContainerImg = styled.div`
 `
 
 export const Fig = styled.figure`
-    width: 20%;
-    height: 30%;
+    width: 18em;
+    height: 15em;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -47,23 +47,32 @@ export const BoxTxt = styled.div`
 
 export const DevOne = styled.h2`
     font-family: 'Century Gothic', sans-serif;
+    font-size: 150%;
+
+    @media screen and (max-width: 800px){
+        font-size: 120%
+    }
 `
 
 export const DevTwo = styled.h2`
     font-family: 'Century Gothic', sans-serif;
-`
-export const ContainerText = styled.div`
-    width: 100%;
-    height: 30em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 150%;
+
+    @media screen and (max-width: 800px){
+        font-size: 120%
+    }
 `
 
-export const DevText = styled.div`
+export const ContainerText = styled.div`
+    padding-bottom: 85px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media screen and (max-width: 700px){
+        flex-direction: column;
+        padding: 0;
+    }
 `
 
 export const BoxResume = styled.div`
@@ -71,52 +80,73 @@ export const BoxResume = styled.div`
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    height: 30rem;
+    width: 60%;
+    height: 20em;
 `
 
 export const TxtOne = styled.p`
-    font-size: 18px;
+    font-size: 100%;
     font-family: 'Century Gothic', sans-serif;
-    width: 100%;
     text-align: justify;
     text-justify: inter-word;
+
+    @media screen and (max-width: 970px){
+        font-size: 80%;
+    }
+    @media screen and (max-width: 700px){
+        font-size: 60%;
+    }
+    @media screen and (max-width: 460px){
+        font-size: 50%;
+    }
 `
 
 export const TxtTwo = styled.p`
-    font-size: 18px;
+    font-size: 100%;
     font-family: 'Century Gothic', sans-serif;
-    width: 100%;
     text-align: justify;
     text-justify: inter-word;
+
+    @media screen and (max-width: 970px){
+        font-size: 80%;
+    }
+    @media screen and (max-width: 700px){
+        font-size: 60%;
+    }
+    @media screen and (max-width: 460px){
+        font-size: 50%;
+    }
 `
 
 export const FigGif = styled.figure`
+    width: 25%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 `
 
 export const Gif = styled.img`
-    width: 450px;
-    border-radius: 20px
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
 `
 
 export const ContainerTech = styled.div`
-    width: 100%;
-    height: 55em;
+    padding: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
 `
 
 export const TitleCards = styled.h2`
-
+    font-size: 150%;
 `
 
 export const BoxInfo = styled.div`
     width: 70%;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;

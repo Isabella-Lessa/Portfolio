@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from "../pages/Projects";
 import About from './../pages/About/index';
 import Contact from './../pages/Contact/index';
-import Error from './Error/index'
-import Header from "./Header";
+import Error from './Error/index';
+import Header from "./Header/index";
 
 export default function Rotas(){
     return(
