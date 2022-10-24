@@ -10,13 +10,13 @@ export default function Footer() {
     <S.Footer>
       <S.Social>
         <a href="https://www.instagram.com/bella.lessa" target="_blank">
-          <S.Icon src={ Insta } />
+          <S.Icon src={ Insta } alt='instagram'/>
         </a>
         <a href="https://contate.me/isalessa" target="_blank">
-          <S.Icon src={ Whats } />
+          <S.Icon src={ Whats } alt='whatsapp'/>
         </a>
         <a href="" target="_blank">
-          <S.Icon src={ Gmail } />
+          <S.Icon src={ Gmail } alt='gmail'/>
         </a>
       </S.Social>
       <S.Copy> © Copyright 2022 - Desenvolvido por Isabella Lessa.</S.Copy>

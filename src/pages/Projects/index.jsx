@@ -22,7 +22,11 @@ export default function Projects() {
                 GitHub
               </S.A>
             </S.BTN>
-            <S.BTN>Online</S.BTN>
+            <S.BTN>
+              <S.A href="" target="_blank">
+                Online
+              </S.A>
+            </S.BTN>
           </S.BoxBtns>
         </S.CardHP>
         <S.CardDog>
@@ -36,7 +40,11 @@ export default function Projects() {
               GitHub
             </S.A>
             </S.BTN>
-            <S.BTN>Online</S.BTN>
+            <S.BTN>
+              <S.A href="" target="_blank">
+                Online
+              </S.A>
+            </S.BTN>
           </S.BoxBtns>
         </S.CardDog>
         <S.CardTracker>
@@ -75,8 +83,16 @@ export default function Projects() {
         <S.CardOds>
           <S.ImgWorks src="" alt="ods project" />
           <S.BoxBtns>
-            <S.BTN>GitHub</S.BTN>
-            <S.BTN>Online</S.BTN>
+          <S.BTN>
+              <S.A href="" target="_blank">
+                GitHub
+              </S.A>
+            </S.BTN>
+            <S.BTN>
+              <S.A href="" target="_blank">
+                Online
+              </S.A>
+            </S.BTN>
           </S.BoxBtns>
         </S.CardOds>
       </S.Box>

@@ -135,9 +135,6 @@ export const BTN = styled.button`
     background-color: white;
     width: 100px;
     height: 2.5em;
-    font-size: 14px;
-    font-family:'Montserrat';
-    font-weight: 700;
     border-radius: 10px;
     border: none;
     box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.82);
@@ -151,6 +148,9 @@ export const BTN = styled.button`
 
 export const A = styled.a`
     text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
     color: black;
 
     &:hover{
