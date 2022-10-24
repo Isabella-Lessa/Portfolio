@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.section`
 `
 
 export const Container = styled.div`
-    height: 150%;
+    padding: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +15,8 @@ export const Container = styled.div`
 export const Box = styled.div`
     width: 90%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 `
 
