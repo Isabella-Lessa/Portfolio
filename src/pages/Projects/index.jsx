@@ -4,6 +4,7 @@ import HP from "../../assets/hp-img.png";
 import DOG from "../../assets/adoption-img.png";
 import TRACKER from "../../assets/tracker-img.png";
 import TODO from "../../assets/todo-img.png";
+import ODS from "../../assets/ods caxias-img.png";
 import Footer from './../../services/Footer/index';
 
 export default function Projects() {
@@ -81,10 +82,10 @@ export default function Projects() {
           </S.BoxBtns>
         </S.CardToDo>
         <S.CardOds>
-          <S.ImgWorks src="" alt="ods project" />
+          <S.ImgWorks src={ ODS } alt="ods project" />
           <S.BoxBtns>
           <S.BTN>
-              <S.A href="" target="_blank">
+              <S.A href="https://github.com/Isabella-Lessa/ODS-Caxias" target="_blank">
                 GitHub
               </S.A>
             </S.BTN>

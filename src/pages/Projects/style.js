@@ -22,7 +22,7 @@ export const Box = styled.div`
 
 export const CardHP = styled.div`
     background-color: #0C2847;
-    width: 25em;
+    width: 28em;
     height: 20em;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ export const CardHP = styled.div`
 
 export const CardDog = styled.div`
     background-color: #0C2847;
-    width: 25em;
+    width: 28em;
     height: 20em;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ export const CardDog = styled.div`
 
 export const CardTracker = styled.div`
     background-color: #0C2847;
-    width: 25em;
+    width: 28em;
     height: 20em;
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ export const CardTracker = styled.div`
 
 export const CardToDo = styled.div`
     background-color: #0C2847;
-    width: 25em;
+    width: 28em;
     height: 20em;
     display: flex;
     align-items: center;
@@ -98,7 +98,7 @@ export const CardToDo = styled.div`
 
 export const CardOds = styled.div`
     background-color: #0C2847;
-    width: 25em;
+    width: 28em;
     height: 20em;
     display: flex;
     align-items: center;
@@ -116,7 +116,7 @@ export const CardOds = styled.div`
 `
 
 export const ImgWorks = styled.img`
-    width: 400px;
+    width: 450px;
     height: 230px;
     object-fit: cover;
 `
