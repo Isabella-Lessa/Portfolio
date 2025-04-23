@@ -472,7 +472,8 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: #000030;
+  /* background: linear-gradient(to bottom, #57059e, #4a00e0); */
 }
 .skills h2 {
   color: #fff;
@@ -990,7 +991,7 @@ form i {
   position: absolute;
   top: 50%;
   left: 18px;
-  color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
@@ -1171,10 +1172,9 @@ form .button-area {
   font-weight: 600;
   color: #fff;
   border-top: 0.1rem solid #fff3;
+  text-transform: none;
 }
-.footer .credit a {
-  color: #ffae00;
-}
+
 .footer .fa {
   color: #e90606;
   margin: 0 0.3rem;
@@ -1240,8 +1240,8 @@ form .button-area {
 
 .contact {
   padding: 4rem 10%;
-  background: #111;
-  color: #fff;
+  background: #ffffff;
+  color: #000030;
 
   input[type="text"],
   input[type="email"],
@@ -1274,9 +1274,9 @@ form .button-area {
 .contact-form textarea {
   width: 100%;
   padding: 1rem;
-  background: #1e1e1e;
-  color: #fff;
-  border: 2px solid #ffffff;
+  /* background: #1e1e1e; */
+  box-shadow: 0 1px 4px rgba(29, 33, 37, 0.3);
+  border: 1px solid #000030;
   border-radius: 8px;
   resize: none;
   font-size: 1rem;
@@ -1301,4 +1301,4 @@ form .button-area {
   background: #f09701;
 }
 
-/* finaliza sessão entre em contato */
+/* finaliza seção entre em contato */
