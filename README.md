@@ -8,7 +8,8 @@ O site é composto por cinco seções principais:
 
 - **Home**: Apresentação inicial com efeito de partículas animadas.
 - **Sobre**: Breve descrição pessoal.
-- **Habilidades**: Lista de competências técnicas.
+- **Sobre**: Apresenta as últimas novidades do projeto.
+- **Novidades**: Lista de competências técnicas.
 - **Projetos**: Galeria com projetos realizados.
 - **Contato**: Formulário para envio de mensagens por e-mail.
 
