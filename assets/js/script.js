@@ -64,7 +64,7 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfólio | CodeWithIsa";
+    document.title = "Portfólio | Isabella Lessa";
     $("#favicon").attr("href", "assets/images/favicon.png");
   } else {
     document.title = "Portfólio | Isabella Lessa";

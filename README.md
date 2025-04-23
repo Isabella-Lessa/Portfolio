@@ -36,6 +36,16 @@ O site é composto por cinco seções principais:
 ├── README.md
 ```
 
+## Desktop
+
+![Portfólio - Isabella Lessa | Desktop](./assets/images/desktop.png)
+
+## Mobile
+
+![Portfólio - Isabella Lessa | Mobile](./assets/images/mobile.png)
+
+![Portfólio - Isabella Lessa | Mobile with Sidebar](./assets/images/mobile-sidebar.png)
+
 ## 🚀 Como Visualizar
 
 Você pode:
@@ -56,4 +66,3 @@ Para dúvidas, colaborações ou propostas:
 ---
 
 Feito com 💙 por Isabella Lessa.
-
