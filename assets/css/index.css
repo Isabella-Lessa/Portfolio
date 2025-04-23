@@ -1236,7 +1236,7 @@ form .button-area {
 }
 /* scroll top ends */
 
-/* entre em contato */
+/* contact starts */
 
 .contact {
   padding: 4rem 10%;
@@ -1274,7 +1274,6 @@ form .button-area {
 .contact-form textarea {
   width: 100%;
   padding: 1rem;
-  /* background: #1e1e1e; */
   box-shadow: 0 1px 4px rgba(29, 33, 37, 0.3);
   border: 1px solid #000030;
   border-radius: 8px;
@@ -1301,4 +1300,4 @@ form .button-area {
   background: #f09701;
 }
 
-/* finaliza seção entre em contato */
+/* contact ends */
