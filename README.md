@@ -57,6 +57,11 @@ Você pode:
    ```
 2. Abrir o arquivo `index.html` no navegador.
 
+## 🌐 Site no ar
+
+Este portfólio está hospedado via **GitHub Pages** e pode ser acessado aqui:  
+🔗 [https://isabella-lessa.github.io/Portfolio/](https://isabella-lessa.github.io/Portfolio/)
+
 ## 📬 Contato
 
 Para dúvidas, colaborações ou propostas:
