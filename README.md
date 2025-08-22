@@ -1,38 +1,41 @@
 # 🌐 Portfólio Pessoal - Isabella Lessa
 
-Este é o repositório do meu portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. O objetivo é apresentar minhas habilidades, experiências e projetos, além de oferecer um meio de contato direto.
+Este repositório contém meu **portfólio pessoal**, desenvolvido com **HTML, CSS e JavaScript**, com o objetivo de apresentar minhas habilidades, experiências, projetos e oferecer um canal de contato direto.
+
+---
 
 ## 📌 Visão Geral
 
 O site é composto por cinco seções principais:
 
-- **Home**: Apresentação inicial com efeito de partículas animadas.
-- **Sobre**: Breve descrição pessoal.
-- **Sobre**: Apresenta as últimas novidades do projeto.
-- **Novidades**: Lista de competências técnicas.
-- **Projetos**: Galeria com projetos realizados.
-- **Contato**: Formulário para envio de mensagens por e-mail.
+- **Home**: Apresentação inicial com efeitos de partículas animadas.  
+- **Sobre**: Breve descrição pessoal e trajetória.  
+- **Novidades**: Últimas atualizações e informações relevantes.  
+- **Projetos**: Galeria de projetos realizados, com descrições e links.  
+- **Contato**: Formulário funcional para envio de mensagens por e-mail.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** - Estrutura do site
-- **CSS3** - Estilização, com foco em responsividade e design moderno
-- **JavaScript** - Validação do formulário e interatividade
-- **Particles.js** - Efeitos visuais com partículas animadas no fundo
-- **FormSubmit** - Serviço externo para envio de mensagens por e-mail
+- **HTML5** – Estrutura semântica do site.  
+- **CSS3** – Estilização, design responsivo e moderno.  
+- **JavaScript** – Interatividade e validação de formulários.  
+- **Particles.js** – Animação de partículas no fundo.  
+- **FormSubmit** – Serviço externo para envio de e-mails.
 
 ## 📁 Estrutura de Pastas
 
 ```
 ├── /assets
-│   |── /css
-|   |     └── index.css
-|   |── /docs
-|   |    └── Currículo - Isabella Lessa 2025.pdf
-|   |── /images
-│   |     └── (imagens utilizadas no site divididas em subcategorias)
-|   |── /js
-│         └── (configurações do Particles.js, FormSubmit e funcionalidades de contato por e-mail)
+│ ├── /css
+│ │ └── index.css
+│ ├── /docs
+│ │ └── Currículo - Isabella Lessa 2025.pdf
+│ ├── /images
+│ │ └── (imagens do site organizadas em subpastas)
+│ └── /js
+│ └── (configurações do Particles.js, FormSubmit e scripts de contato)
 ├── index.html
 ├── README.md
 ```
